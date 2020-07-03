@@ -6,7 +6,7 @@ FROM alpine
 MAINTAINER ryan <noreply@easypi.pro>
 
 RUN set -xe \
-    && apk update
+    && apk update \
     && apk add --no-cache ca-certificates \
                           ffmpeg \
                           openssl \
